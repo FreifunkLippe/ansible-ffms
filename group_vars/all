@@ -3,8 +3,8 @@ build_tunnels_over_ipv6_if_available: false
 
 domaenen:
   "01":
-    name: Lippe
-    community: Freifunk Lippe
+    name: Domaene 01
+    community: Freifunk OWL
     ffv4_network: 10.88.0.0/20
     ffv6_network: 2001:bf7:131c:111::/64
     map_scale: 1.1
@@ -13,14 +13,32 @@ domaenen:
     map_blinking_hours: 8
     firmware: domaene01/
   "02":
-    name: Detmold
-    community: Freifunk Lippe
+    name: Domaene 02
+    community: Freifunk OWL
     ffv4_network: 10.88.16.0/20
     ffv6_network: 2001:bf7:131c:222::/64
     map_scale: 1.1
     map_show_contact: true
     map_max_age: 30
     firmware: domaene02/
+  "03":
+    name: Domaene 03
+    community: Freifunk OWL
+    ffv4_network: 10.88.32.0/20
+    ffv6_network: 2001:bf7:131c:333::/64
+    map_scale: 1.1
+    map_show_contact: true
+    map_max_age: 30
+    firmware: domaene03/
+  "04":
+    name: Domaene 04
+    community: Freifunk OWL
+    ffv4_network: 10.88.48.0/20
+    ffv6_network: 2001:bf7:131c:444::/64
+    map_scale: 1.1
+    map_show_contact: true
+    map_max_age: 30
+    firmware: domaene04/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird
 routing_table: 42

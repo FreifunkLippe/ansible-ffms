@@ -22,3 +22,5 @@ stats                  ipv4=195.128.100.197       ansible_ssh_host="{{ipv4}}"   
 [gateways]
 gw01     		ipv4=195.128.102.127	ansible_ssh_host="{{ipv4}}"	ansible_ssh_port=22	ansible_ssh_user=root
 gw02    		ipv4=195.128.103.250	ansible_ssh_host="{{ipv4}}"	ansible_ssh_port=22	ansible_ssh_user=root
+gw03	   		ipv4=195.128.103.175	ansible_ssh_host="{{ipv4}}"	ansible_ssh_port=22	ansible_ssh_user=root
+gw04    		ipv4=195.128.102.49	ansible_ssh_host="{{ipv4}}"	ansible_ssh_port=22	ansible_ssh_user=root
